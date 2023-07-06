@@ -22,3 +22,7 @@
 ## Policies
 
 * [🌴 Requesting Time Off](policies/requesting-time-off.md)
+
+## Web API
+
+* [Web API ga kirish](web-api/web-api-ga-kirish.md)
