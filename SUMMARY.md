@@ -1,7 +1,8 @@
 # Table of contents
 
-* [Intro](README.md)
-  * [Project Components](intro/project-components.md)
-  * [Assembly Components](intro/assembly-components.md)
-* [Console Project](console-project/README.md)
-  * [Creating Simple Console App](console-project/creating-simple-console-app.md)
+* [SDK](README.md)
+* [IDE](ide.md)
+* [Version Control](version-control/README.md)
+  * [Git Setup](version-control/git-setup.md)
+  * [Git Basics](version-control/git-basics.md)
+  * [Git Verification](version-control/git-verification.md)
