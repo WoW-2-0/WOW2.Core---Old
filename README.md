@@ -34,7 +34,7 @@ Don't use
 
 #### What
 
-**Caching** - technique used in computer systems to store and retrieve frequently accessed or computationally expensive data in a faster and more efficient manner
+**Caching** - technique used in computer systems to store and retrieve **frequently accessed** or computationally expensive data in a faster and more efficient manner
 
 
 
@@ -53,9 +53,15 @@ Caching isn't&#x20;
 
 #### Why
 
-*
+* improved system performance
+* reduced resource utilization
+* enhanced scalability
+* lower latency
+* cost efficiency
 
-#### How
+**How**
+
+
 
 
 
