@@ -30,7 +30,7 @@ Don't use
 * Security-Sensitive apps
 * Dynamic or User-specific Content
 
-####
+***
 
 #### What
 
@@ -51,6 +51,8 @@ Caching isn't&#x20;
 * substitute for database or API
 * security or authorization
 
+***
+
 #### Why
 
 * improved system performance
@@ -61,7 +63,7 @@ Caching isn't&#x20;
 
 **How**
 
-
+* In&#x20;
 
 
 
