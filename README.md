@@ -10,7 +10,7 @@
 
 
 
-<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 > Example - from technical perspective graphical computing got really advanced nowadays, and it can really optimize resource usage based on activity of the content being rendered, for example, **when gaming** it uses all resources to maximize smoothness, and when rendering **static content** it reduces processes to save resources, so while the **same amount of requests** being received to render the image, it won't, and just return the **previous rendered image**  &#x20;
 
@@ -65,7 +65,7 @@ Caching isn't&#x20;
 
 * In&#x20;
 
-<img alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 &#x20;
 
