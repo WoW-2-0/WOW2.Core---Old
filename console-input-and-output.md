@@ -1,2 +1,0 @@
-# Console Input and Output
-
