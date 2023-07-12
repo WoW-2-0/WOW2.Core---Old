@@ -1,10 +1,4 @@
-# Built-In Collections
-
-
-
-
-
-
+# Collections
 
 * List
 * HashSet
@@ -15,6 +9,3 @@
 * Dictionary
 * SortedDictionary
 * SortedList
-
-
-

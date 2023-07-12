@@ -2,10 +2,6 @@
 
 * [Date Types](README.md)
 * [Console Input and Output](console-input-and-output.md)
-* [Collections](collections/README.md)
-  * [Collection Operations](collections/collection-operations.md)
-  * [Thread-Safe Collections](collections/thread-safe-collections.md)
-  * [Built-In Collections](collections/built-in-collections.md)
 
 ## Type Categories
 
@@ -23,8 +19,8 @@
 
 ## Collections
 
-* [Arrays](collections-1/arrays.md)
-* [Collections](collections-1/collections.md)
-* [Generic Collections](collections-1/generic-collections.md)
-* [Custom Collections](collections-1/custom-collections.md)
-* [Thread-Safe Collections](collections-1/thread-safe-collections.md)
+* [Arrays](collections/arrays.md)
+* [Collections](collections/collections.md)
+* [Generic Collections](collections/generic-collections.md)
+* [Custom Collections](collections/custom-collections.md)
+* [Thread-Safe Collections](collections/thread-safe-collections.md)
