@@ -27,4 +27,4 @@
 * [Collections](collections-1/collections.md)
 * [Generic Collections](collections-1/generic-collections.md)
 * [Custom Collections](collections-1/custom-collections.md)
-* [Untitled](collections-1/untitled.md)
+* [Thread-Safe Collections](collections-1/thread-safe-collections.md)
