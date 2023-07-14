@@ -13,6 +13,10 @@ gRPC - language agnostic, high-performance Remote Procedure Call (RPC) framework
 * Tools available for strongly typed clients and servers
 * Supports client, server and bi-directional streaming calls
 * Reduced network usage with Protobuf binary serialization
+* Uses&#x20;
+  * HTTP/2
+  * `Protobuf`
+* We can think gRPC service as a controller where methods of that service are actions
 
 
 
