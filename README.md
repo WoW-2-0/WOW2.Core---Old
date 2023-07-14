@@ -28,3 +28,32 @@ Ideal for&#x20;
 
 
 
+
+
+
+
+Proto buffer file
+
+* Must bet set for either&#x20;
+  * `Client` -&#x20;
+  * `Server` -
+  * `Client and Server` -&#x20;
+
+
+
+
+
+* When Proto file is built, if it is for
+  * Server - service base file is generated
+  * Client - service client is generated
+
+
+
+
+
+
+
+
+
+
+
