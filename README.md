@@ -51,6 +51,13 @@ Proto buffer file
 
 
 
+Example&#x20;
+
+* Image if Server had to execute multiple processes and what if we might want to receive those process results when they finish on the client side ?
+* On gRPC communication model, we can send each result as response using streams
+
+
+
 
 
 
