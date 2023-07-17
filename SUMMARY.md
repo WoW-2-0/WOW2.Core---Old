@@ -1,7 +1,8 @@
 # Table of contents
 
-* [Unique Identifier](README.md)
-* [Date Types](<README (1).md>)
+* [Mathematical Types](README.md)
+* [Unique Identifier](<README (1).md>)
+* [Date Types](<README (1) (1).md>)
 
 ## Type Categories
 
