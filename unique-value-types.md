@@ -97,7 +97,23 @@ Best Practices
 * always use static `Guid.NewGuid` method
 * use collision detection strategy
 * do not use GUIDs as human-readable identifiers
-*
+* store as binary for better space and efficiency
+
+
+
+Bad Practices
+
+* manually generating unique values
+* using sequential `Guid` ( eg. using timestamps )
+* using for frequently written tables
+* using `Guid` s for cryptography
+* exposing `Guid` values publicly
+
+
+
+History&#x20;
+
+Version of `Guid`
 
 
 
