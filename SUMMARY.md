@@ -32,3 +32,9 @@
 * [Generic Collections](collections-1/generic-collections.md)
 * [Custom Collections](collections-1/custom-collections.md)
 * [Thread-Safe Collections](collections-1/untitled.md)
+
+## Conversion
+
+* [Casting](conversion/casting.md)
+* [Conversion](conversion/conversion.md)
+* [Parsing](conversion/parsing.md)
