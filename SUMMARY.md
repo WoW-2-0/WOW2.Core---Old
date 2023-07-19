@@ -1,8 +1,12 @@
 # Table of contents
 
-* [Mathematical Types](README.md)
-* [Unique Identifier](<README (1).md>)
-* [Date Types](<README (1) (1).md>)
+* [Date Types](README.md)
+* [Boolean Types](boolean-types.md)
+* [Numeric Types](numeric-types.md)
+* [Text Types](text-types.md)
+* [Date Types](date-types-1.md)
+* [Unique Value Types](unique-value-types.md)
+* [Mathematical Types](<README (1).md>)
 
 ## Type Categories
 
