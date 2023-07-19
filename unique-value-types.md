@@ -14,44 +14,98 @@ Image a situation where thousands of objects must have unique identifier. It may
 
 #### When
 
-* Primary Keys in databases
-* Session Identifiers
-* Identifiers for objects or entities
-* Entropy sources for cryptography
-
-
+* primary keys in databases
+* session identifiers
+* identifiers for objects or entities
+* cryptography operations
+* file name
+* transaction or message operations
 
 #### Why
 
+* extremely low probability of generating duplicate values
 
+What
 
-#### What
-
-
+* unique values types - types that are guaranteed to be unique within the given context
+* unique value types use hashing and randomness
+* some implementations also use timestamp
 
 #### How
 
-
-
-
-
-
-
 Unique Value Types
 
+* `Guid` - Global Unique Identifier
+
+Operations
+
+* Parse
+* Create with value
+* Create empty
+
+
+
+Usage
+
+* Creating with value
+
+```csharp
+var guid = Guid.NewGuid();
+```
+
+* Creating empty
+
+```csharp
+var guid = Guid.Empty;
+```
+
+* Converting to string
+
+```csharp
+var guidString = guid.ToString();
+```
+
+* Parsing from string
+
+```csharp
+var parsedGuid = Guid.Parse("4da8b2f0-9b30-49e2-87bf-b010b5ff16df");
+```
+
+* Equality
+
+```csharp
+var guidA = Guid.NewGuid();
+var guidB = Guid.NewGuid();
+
+if(guidA == guidB)
+    Console.WriteLine("The are same!")
+```
+
+* Validating
+
+```csharp
+var guid = Guid.Empty;
+
+if(guid == Guid.Empty)
+  Console.WriteLine("Invalid Guid");  
+```
+
+
+
+Best Practices
+
+* always use static `Guid.NewGuid` method
+* use collision detection strategy
+* do not use GUIDs as human-readable identifiers
 *
 
 
 
 
 
-1. Primary Keys in Databases: `Guid` can be used as a primary key in databases, ensuring uniqueness across different entities and systems. It eliminates the need for a centralized authority to generate and manage keys.
-2. Unique Identifiers in Distributed Systems: `Guid` is often used to generate unique identifiers for entities in distributed systems. It allows different nodes or services to independently generate unique IDs without coordination.
-3. Session Identifiers: `Guid` can be used to generate session IDs for web applications. Each user session can be associated with a unique `Guid`, enabling tracking and managing session-related data.
-4. File and Resource Naming: `Guid` can be used to generate unique names for files, resources, or temporary files. This ensures that the names are unique and helps avoid conflicts in distributed systems or when multiple entities create resources simultaneously.
-5. Message Correlation and Tracking: `Guid` is useful for correlating and tracking messages in message-oriented systems. Each message can be assigned a unique `Guid` to track its flow through different components or systems.
-6. Secure Token Generation: `Guid` can be used to generate secure tokens, such as access tokens or authentication tokens, in web applications or APIs. These tokens can be used for authorization and authentication purposes.
-7. Testing and Mocking: `Guid` can be used in unit testing or mocking scenarios to generate unique identifiers for test data or mock objects. This helps avoid conflicts and ensures unique representations.
 
-The unique and random nature of `Guid` makes it suitable for scenarios where uniqueness and uniqueness across distributed systems are required. It provides a reliable way to generate unique identifiers without the need for centralized coordination or reliance on external systems.
+
+
+
+
 
