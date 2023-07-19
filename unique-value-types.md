@@ -27,11 +27,15 @@ Image a situation where thousands of objects must have unique identifier. It may
 
 * extremely low probability of generating duplicate values
 
-What
+***
+
+#### What
 
 * unique values types - types that are guaranteed to be unique within the given context
 * unique value types use hashing and randomness
 * some implementations also use timestamp
+
+***
 
 #### How
 
@@ -112,6 +116,8 @@ Bad Practices
 * exposing `Guid` values publicly
 
 
+
+***
 
 History&#x20;
 
