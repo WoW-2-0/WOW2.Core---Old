@@ -6,6 +6,7 @@
 * [Text Types](text-types.md)
 * [Date Types](date-types-1.md)
 * [Unique Value Types](unique-value-types.md)
+* [Random Value Types](random-value-types.md)
 * [Mathematical Types](<README (1).md>)
 
 ## Type Categories
@@ -17,6 +18,7 @@
 
 ## Variables
 
+* [Identifier](variables/identifier.md)
 * [Const and Variable](variables/const-and-variable.md)
 * [Definition and Instantiation](variables/definition-and-instantiation.md)
 * [Read from and Write to variables](variables/read-from-and-write-to-variables.md)
