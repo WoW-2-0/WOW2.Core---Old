@@ -21,6 +21,8 @@ Image a situation where thousands of objects must have unique identifier. It may
 * file name
 * transaction or message operations
 
+***
+
 #### Why
 
 * extremely low probability of generating duplicate values
