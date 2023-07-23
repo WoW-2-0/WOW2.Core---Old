@@ -1,4 +1,8 @@
-# Page
+# Installing Tailwind CSS in Vue
+
+
+
+
 
 * Install Tailwind CSS
 
@@ -30,8 +34,3 @@ export default {
 @tailwind components;
 @tailwind utilities;
 ```
-
-
-
-
-
