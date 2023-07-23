@@ -4,7 +4,8 @@
 
 ## Creating an App
 
-* [Simple App](creating-an-app/simple-app.md)
+* [Creating an app using CDN](creating-an-app/creating-an-app-using-cdn/README.md)
+  * [Vue Hello World](creating-an-app/creating-an-app-using-cdn/vue-hello-world.md)
 * [Untitled](creating-an-app/untitled.md)
 * [Vue CLI](creating-an-app/vue-cli.md)
 * [Vite](creating-an-app/vite.md)
@@ -16,4 +17,10 @@
 
 ## Components
 
-* [Creating Simple Component](components/creating-simple-component.md)
+* [Creating Simple Component](components/creating-simple-component/README.md)
+  * [Counter](components/creating-simple-component/counter.md)
+  * [Counter with API Styles](components/creating-simple-component/counter-with-api-styles.md)
+
+## Styling
+
+* [Untitled](styling/untitled.md)
