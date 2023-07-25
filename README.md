@@ -1,13 +1,41 @@
-# Page
+# Creating an App
 
-* Install Tailwind CSS
 
-```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+
+App start progress
+
+* Creating an instance
+* Adding components&#x20;
+* Mounting&#x20;
+*
+
+
+
+
+
+
+
+
+
+
+
+* **Mounting** -
+* process of injecting a Vue component into DOM
+* app instance is mounted to the **Root** component
+* Root component must have id of **app**
+
+```html
+<body>
+    <!-- Root componen -->
+    <div id="app"></div> 
+</body>
 ```
 
-* Configure template paths
+
+
+
+
+* Vue application is started by creating a new application instance with `createApp`
 
 ```javascript
 /** @type {import('tailwindcss').Config} */
@@ -23,15 +51,17 @@ export default {
 }
 ```
 
-* Add the tailwind directives
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
 
 
 
 
+
+
+
+
+
+
+Practice
+
+#### -
 

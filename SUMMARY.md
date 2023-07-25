@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
-* [Using Tailwind CSS](using-tailwind-css/README.md)
-  * [Installing Tailwind CSS in Vue](using-tailwind-css/installing-tailwind-css-in-vue.md)
-  * [Using via CDN](using-tailwind-css/using-via-cdn.md)
+* [Creating an App](README.md)
+* [Creating a Vue app using CDN](creating-a-vue-app-using-cdn.md)
+* [Creating a Vue app](creating-a-vue-app.md)
