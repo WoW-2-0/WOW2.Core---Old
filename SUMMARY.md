@@ -1,5 +1,9 @@
 # Table of contents
 
-* [Creating an App](README.md)
-* [Creating a Vue app using CDN](creating-a-vue-app-using-cdn.md)
-* [Creating a Vue app](creating-a-vue-app.md)
+* [Options API](README.md)
+* [Composition API](composition-api.md)
+* [API Styles](api-styles.md)
+
+## Composition API
+
+* [Reactivity](composition-api-1/reactivity.md)
