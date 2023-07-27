@@ -11,7 +11,7 @@ When
 
 
 * centered around reactive state variables directly in a function scope
-* composes state from multiple functions together to handle complexity
+* composes state from multiple functions together to handle&#x20;
 
 
 
