@@ -6,4 +6,6 @@
 
 ## Composition API
 
-* [Reactivity](composition-api-1/reactivity.md)
+* [Reactivity](composition-api-1/reactivity/README.md)
+  * [Reducing Reactivity](composition-api-1/reactivity/reducing-reactivity.md)
+  * [Page 2](composition-api-1/reactivity/page-2.md)
