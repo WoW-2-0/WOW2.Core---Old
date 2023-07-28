@@ -20,7 +20,7 @@ const message = computed(() => status ? "Success" : "Failed");
 
 Writable
 
-```
+```javascript
 const fullName = computed({
     // getter
     get() {
@@ -35,4 +35,12 @@ const fullName = computed({
 ```
 
 
+
+
+
+#### How
+
+* getter must be side effect free
+* don't make async requests in getter
+* don't mutate value returned by computed property - it's just a snapshot
 
