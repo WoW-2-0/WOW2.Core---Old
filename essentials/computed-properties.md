@@ -16,3 +16,23 @@
 const message = computed(() => status ? "Success" : "Failed");
 ```
 
+
+
+Writable
+
+```
+const fullName = computed({
+    // getter
+    get() {
+        return firstName.value + ' ' + lastName.value;
+    },
+    
+    // setter
+    set() {
+        [firstName.value, lastName.value] = newValue.split()
+    }    
+});
+```
+
+
+
