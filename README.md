@@ -1,2 +1,2 @@
-# SFC - Single File Component
+# Vuetify
 
