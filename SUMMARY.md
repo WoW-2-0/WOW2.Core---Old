@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [SFC - Single File Component](README.md)
