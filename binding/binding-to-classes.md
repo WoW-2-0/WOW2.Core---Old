@@ -1,14 +1,6 @@
 # Binding to Classes
 
-
-
-
-
-
-
 * bind to objects
-
-
 
 ```html
 <template>
@@ -25,10 +17,6 @@
 
 </setup>
 ```
-
-
-
-
 
 * binding inline
 
@@ -88,7 +76,27 @@ Binding with Components
 
 
 
-* binding with components -&#x20;
+#### Binding Inline Styles
 
+* supports binding JS objects to style
+* camelCase for CSS rules are recommended, kebab-case also supported
+* can be bound to arrays - of multiple objects will be merged
+* Vue auto adds vendor prefix
+* multiple values can be applied and the one which is supported by browser will be used
 
+```html
+<!-- recommended -->
+<div :style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
 
+<!-- kebab csae -->
+<div :style="{ 'font-size': fontSize + 'px' }"></div>
+
+<!-- binding to an object -->
+<div :style="styledObject"></div>
+
+<!-- binding to an array -->
+<div :style=[baseStyle, overridingStyle]"></div>
+
+<!-- binding with multiple valeus -->
+<div :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }></div>
+```
