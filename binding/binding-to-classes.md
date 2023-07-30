@@ -61,5 +61,34 @@
 
 
 
+Binding with Components
+
+* will be applied to root element and merge with any existing classes
+* if root element is not a single element, need to specify which element must receive it
+
+```html
+<!-- single root element -->
+<MyComponent :class="{ active: isActive }" />
+
+<!-- render -->
+<p class="foo bar active"></p>
+
+<!-- multiple root element -->
+<MyComponent class="baz" />
+
+<!-- component -->
+<p :class="$attrs.class">Hi!</p>
+<span>This is a child component</span>
+
+<!-- render -->
+<p class="baz">Hi!</p>
+<span>This is a child component</span>
+
+```
+
+
+
+* binding with components -&#x20;
+
 
 
