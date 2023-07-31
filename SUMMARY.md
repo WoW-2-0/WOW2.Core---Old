@@ -8,3 +8,4 @@
 ## Group 1
 
 * [Conditional Rendering](group-1/conditional-rendering.md)
+* [List rendering](group-1/list-rendering.md)
