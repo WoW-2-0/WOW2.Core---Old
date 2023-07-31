@@ -1,71 +1,51 @@
-# Binding
+---
+description: Data Structure definition and it's types
+---
+
+# Data Structures
 
 
 
+<img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
+#### When
+
+* literally everywhere, where data is processed
+
+#### What
+
+* way to organize and store data in memory
+* logically combines related data&#x20;
+
+#### Types of data structures
+
+Data Structure templates
+
+* class - blueprint for creating objects
+* record - easier model template than classes
+* struct - lightweight version of class
+* enum - a set of named constants
+* tuple - lightweight data structure that holds fixed number of elements with different types
+* event - communication mechanism between objects
+* pointer - direct manipulation off memory addresses
+* interface - contract that classes can implement
+* delegate - references to the methods
 
 
 
-
-#### Text Interpolation
-
-* use curly braces syntax
-
-```html
-<span>Message: {{ msg }}</span>
-```
+Exact Data Structures - exact implementation or interface, all built-in and custom types
 
 
 
+#### Why
 
+* efficiency - optimized data access, storage and manipulation
+* organization - structured way to organize data
+* search and retrieval - data structures like array, list, stack, queue etc. enables quick search
+* memory management - automatic memory allocation and management
+* abstraction - built-in data structures have all logic built-in, abstracted for developers
 
-**Attribute binding**
+#### How
 
-* use `v-bind` to bind to HTML attributes, use `:` for shorthand&#x20;
-* this works for [boolean attributes](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes) too
-* for multiple attributes we can bind an object with `v-bind`
-
-```html
-<div v-bind:id="dynamicId"></div>
-
-<!-- shorthand version -->
-<div :id="dynamicId"></div>
-
-<!-- boolean attribute -->
-<div :disabled="isDisabled"></div>
-
-<!-- binding multiple attributes -->
-<div v-bind="objectOfAttrs"></div>
-
-<!-- script -->
-const objectOfAttrs = {
-  id: 'container',
-  class: 'wrapper'
-}
-```
-
-
-
-#### Expressions
-
-* Vue supports full `JS` expressions inside all data bindings
-* each expression can only have one expression
-* we can also call functions in expressions - they are called every time component updates
-
-```html
-<!-- text interpolation -->
-<span>
-    Message - {{ warning.Code + warning.Message }}
-</span>
-
-<!-- single expression -->
-<span>
-    Message - {{ isStatusOk() ? `YES` : `NO` }}    
-</span>
-
-<!-- attribute binding -->
-<div :disabled="isDisabled(item)"></div>
-
-```
-
-
-
+* use built-in types a.k.a. exact data structures
+* define custom types using data structure templates

@@ -1,0 +1,8 @@
+# Write-Only property
+
+
+
+#### When
+
+*
+

@@ -1,0 +1,6 @@
+# Init-Only property
+
+#### When
+
+*
+
