@@ -9,6 +9,8 @@
 
 
 
+#### How
+
 * includes 2 types of properties - auto-property and standard read-write property
 * auto-property - underlying field will be created automatically and bind to **get** and **set** methods
 * standard read-write property - underlying field must be created manually&#x20;

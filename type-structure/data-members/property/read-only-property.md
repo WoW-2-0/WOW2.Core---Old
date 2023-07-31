@@ -4,9 +4,12 @@
 
 #### When
 
-*
+* underlying field is readonly
+* value should not be updated by outside
 
 
+
+#### How
 
 * includes read-only property and expression-bodied read-only property
 * &#x20;expression-bodied read-only property doesn't have `get` method

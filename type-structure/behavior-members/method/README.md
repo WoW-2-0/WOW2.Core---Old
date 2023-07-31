@@ -41,7 +41,7 @@ public string DoSomething(int value)
 }
 ```
 
-<img src="../../.gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
 
 * name - must be in **PascalCase** regardless if method is `private`&#x20;
 * parameters - placeholder for method input values
