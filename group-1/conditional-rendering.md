@@ -32,9 +32,12 @@
 
 #### v-show
 
-*
+* element will be rendered and added to DOM, but will be toggled by `display` property
+* doesn't support `template` element or `v-else` block
 
+####
 
+####
 
 #### Best Practices
 
@@ -53,7 +56,16 @@
 </template>
 ```
 
-#### v-if
+#### v-if vs v-show
 
-#### v-if
+* `v-if` is "real" conditional rendering, it ensures proper destruction of child components
+* `v-if` is lazy, if condition is false in first render, conditional block won't be rendered
+* `v-show` always renders the block, if condition is false, hides with display property
+* `v-if` has higher toggle and `v-show` has initial render costs
+* `v-if` is used if condition doesn't change at runtime and `v-show` used if toggle is very often&#x20;
+
+#### v-if with v-for
+
+* never use v-if with v-for
+*
 
