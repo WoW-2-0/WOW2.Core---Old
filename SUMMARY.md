@@ -1,7 +1,13 @@
 # Table of contents
 
 * [Data Structures](README.md)
-* [Class](class.md)
+  * [Record](data-structures/record.md)
+  * [Struct](data-structures/struct.md)
+  * [Enum](data-structures/enum.md)
+  * [Delegate](data-structures/delegate.md)
+  * [Interface](data-structures/interface.md)
+  * [Class](data-structures/class.md)
+* [Type](type.md)
 * [Object](object.md)
 
 ## Group 1
