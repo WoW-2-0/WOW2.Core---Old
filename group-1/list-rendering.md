@@ -9,6 +9,12 @@
 * used to render items in a list
 * use unique value as index to be able to differentiate items in the list
 * we can also use `of`
+* doesn't pass data to components when used directly with them, instead data is passed with props
+* Vue detects mutation in source collection and updates DOM accordingly
+
+
+
+
 
 ```html
 <li v-for="(item, index) in items">
@@ -73,6 +79,17 @@ v-for and v-if
 ```
 
 
+
+Maintaining state with key
+
+* use `key` attribute to let Vue keep track of elements in DOM and in array
+* use primitive values for `key`
+
+```html
+<div v-for="item in items" :key="item.id">
+  <!-- content -->
+</div>
+```
 
 
 
