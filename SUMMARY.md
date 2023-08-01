@@ -1,11 +1,9 @@
 # Table of contents
 
-* [Binding](README.md)
-  * [Binding to Classes](binding/binding-to-classes.md)
-* [Page](page.md)
-* [Rendering](rendering.md)
+* [String Operations](README.md)
 
-## Group 1
+## Efficient String Management
 
-* [Conditional Rendering](group-1/conditional-rendering.md)
-* [List rendering](group-1/list-rendering.md)
+* [String and String Builder](efficient-string-management/string-and-string-builder.md)
+* [String Pool](efficient-string-management/string-pool.md)
+* [Untitled](efficient-string-management/untitled.md)
