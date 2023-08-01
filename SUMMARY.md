@@ -39,11 +39,7 @@
 
 * [Type structure](type-structure/type-structure.md)
 * [Data Members](type-structure/data-members/README.md)
-  * [Property](type-structure/data-members/property/README.md)
-    * [Read-Write property](type-structure/data-members/property/read-write-property.md)
-    * [Read-Only property](type-structure/data-members/property/read-only-property.md)
-    * [Write-Only property](type-structure/data-members/property/write-only-property.md)
-    * [Init-Only property](type-structure/data-members/property/init-only-property.md)
+  * [Property](type-structure/data-members/property.md)
   * [Field](type-structure/data-members/field/README.md)
     * [Read-Only field](type-structure/data-members/field/read-only-field.md)
     * [Const field](type-structure/data-members/field/const-field.md)
